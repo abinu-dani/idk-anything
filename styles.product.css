@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: wavy;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .product-section {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-section img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-section h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product-section .price {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #555555;
+  }
+  
+  .product-section button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-section button:hover {
+    background-color: #444444;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.9rem;
+  }
+  
